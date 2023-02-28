@@ -1,0 +1,4 @@
+(3) COMMAND LINE:
+muscle_expanse  -in infile.fasta -seqtype auto -stable  -maxiters 16 -maxmb 30000000 -log logfile.txt         -weight1 clustalw -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta
+(4) Most closely related to: Syconycteris australis, Dobsonia viridis, and cynopterus sphinx
+(5) Phylogeny is useful in analyzing current events such as COVID because you are able to compare the virus with other viruses and see how they change 
