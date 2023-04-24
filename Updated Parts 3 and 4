@@ -1,0 +1,8 @@
+3. Muscle Command Line):
+muscle_expanse  -in infile.fasta -seqtype auto -stable  -maxiters 16 -maxmb 30000000 -log logfile.txt         -weight1 clustalw -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta
+
+RAxML Command Line):
+
+raxmlHPC-PTHREADS-AVX2 -T 2 -f a -m GTRGAMMA -p 12345 -x 12345 -# 100 -s input.fasta -n output.newick
+
+4. Most closely related to: S. australis, D. viridis, C. sphinx, E. wahlbergi, R. leschenaultii
